@@ -29,6 +29,8 @@ if(isset($_POST['enviar-formulario'])) {
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
     <input type="file" name="arquivo"><br>
      <input type="submit" name="enviar-formulario">
+     <H1>TESTE GITHUB</H1>
 </body>
 </html>
+
 
