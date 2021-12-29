@@ -7,10 +7,11 @@
     <title>Document</title>
 </head> 
 <body>
-    <form action="dados.php" method="POST">
+    <form action="dados.php" method="GET">
         Nome: <input type="text" placeholder="digite o seu nome" name="nome"><br>
         email: <input type="email" placeholder="exemplo@exemplo.com" name="email"><br>
         <button type="submit">enviar </button>
     </form>
+    <a href="dados.php?idade=25&sobrenome=Santos">Enviar dados</a>
 </body>
 </html> 
